@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 100px;
+  letter-spacing: 20px;
+}
+
+/* Other elements */
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  margin-left: 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008B8B;
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+  height: 630px;
+}
+
+/* Title Section */
+#title {
+  background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.rectangle {
+  border-color: white;
+  border-style: solid;
+  border-width: 6.25%;
+  width: 75rem;
+  height: 28.125rem;
+  margin: auto;
+  position: relative;
+  top: 80px;
+}
+
+.heading {
+padding-top: 160px;
+}
+
+.subtitle {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  padding-top: 90px;
+}
+
+/* Description Section */
+#img-div {
+  color: #696969;
+  margin-top: 100px;
+}
+
+.image-circle-container{
+  height: 15.265rem;
+  margin: 0 auto;
+  margin-bottom: 5.625rem;
+  max-width: 18.75rem;
+}
+
+#image {
+  height: auto;
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.circle {
+  height: 22rem;
+  width: 22rem;
+  border-style: solid;
+  border-color: #008B8B;
+  border-radius: 50%;
+  border-width: 8px;
+  position: relative;
+  bottom: 330px;
+  right: 25px;
+}
+
+#img-caption {
+  letter-spacing: 3px;
+  font-size: 1.25rem;
+  text-align: center;
+  width: 1000px;
+  margin: 2% auto;
+  }
+
+/* Life Section */
+#tribute-info {
+  color: white;
+  background-color: #008B8B;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  height: auto;
+}
+
+.tribute-title {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.life-info {
+  margin-top: 50px;
+  padding: 5% 7%;
+  background-color: #008B8B;
+}
+
+.image2 {
+max-width: 100%;
+  border-radius: 10px;
+}
+
+.info {
+  letter-spacing: 3px;
+}
+
+/* Learn More Section */
+.learn {
+  height: auto;
+}
+
+.learn-title {
+  letter-spacing: 5px;
+  font-size: 3rem;
+}
+
+.links {
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width:900px){
+  .rectangle {
+    border-width: 0;
+  }
+
+  #image {
+    width: 80%;
+    height: 70%;
+    margin-left: 30px;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  #tribute-info {
+    margin-bottom: 700px;
+  }
+.info-1, .info-2, .info-3, .image2-div{
+  padding-top: 5%;
+  text-align: center;
+}
+
+}
